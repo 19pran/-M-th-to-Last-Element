@@ -1,0 +1,8 @@
+#Python 
+
+M = int(input())
+L = list(map(int,input().strip().split()))
+if M <= len(L):
+    print(L[(len(L)-M)])
+else:
+    print('NIL')
